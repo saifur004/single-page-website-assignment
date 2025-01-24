@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        /* CSS code embedded here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            margin: 80px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+    </nav>
+    <section id="section1">
+        <h1>Section 1</h1>
+        <p>Welcome to Section 1</p>
+    </section>
+    <section id="section2">
+        <h1>Section 2</h1>
+        <p>Welcome to Section 2</p>
+    </section>
+    <section id="section3">
+        <h1>Section 3</h1>
+        <p>Welcome to Section 3</p>
+    </section>
+    <script>
+        // JavaScript code embedded here
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Page loaded successfully!");
+        });
+    </script>
+</body>
+</html>
